@@ -88,6 +88,7 @@ footer {
 }
 
 .button-first {
+    color: var(--hirou-color);
     background-color: var(--accent-color)
 }
 
@@ -157,13 +158,19 @@ h2 {
 
 /* portfolio.html */
 .button {
-    color: var(--accent-color);
+    color: var(--title-text-color);
     background-color: var(--last-background-color);
 
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+}
+
+.button:hover,
+.button:focus{
+    color: var(--hirou-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-item {
