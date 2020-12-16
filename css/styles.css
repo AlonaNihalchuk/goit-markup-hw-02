@@ -72,12 +72,19 @@ a {
     background-color: var(--hirou-color);
 }
 
-.hirou,
+.hero {
+    width: 1600px;
+    margin-bottom: 94px;
+    text-align: center;
+}
+
+.hero,
 footer {
     background-color: var(--secondary-background-color);
 }
 
-.hirou-title {
+.hero-title {
+    margin-bottom: 30px;
     color: var(--hirou-color);
 
     font-weight: 900;
@@ -86,11 +93,6 @@ footer {
     text-align: center;
     letter-spacing: 0.06em;
 }
-
-.button-first {
-    color: var(--hirou-color);
-    background-color: var(--accent-color)
-} 
 
 .main {
     color: var(--hirou-color);
@@ -153,11 +155,22 @@ h2 {
 }
 
 .list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 } 
 
 /* portfolio.html */
 .button {
+    display: inline-block;
+    /* border: none; */
+    /* или border: none;? */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+    text-align: center;
+
+
     color: var(--title-text-color);
     background-color: var(--last-background-color);
 
@@ -171,8 +184,18 @@ h2 {
 .button:focus{
     color: var(--hirou-color);
     background-color: var(--accent-color);
+} 
+
+/* button index.html  */
+.button.first {
+    padding: 10px 32px;
+    min-width: 200px;
+     
+    color: var(--hirou-color);
+    background-color: var(--accent-color)
 }
 
+/* portfolio.html */
 .portfolio-item {
     color: var(--title-text-color);
 
@@ -188,4 +211,8 @@ h2 {
 
     font-size: 16px;
     line-height: 1.87;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
