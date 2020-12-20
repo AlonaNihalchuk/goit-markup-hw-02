@@ -53,8 +53,8 @@
       <!-- Характеристики -->
       <section class="features">
         <div class="container featyres">
-          <!-- <h2>Характеристики</h2> -->
-          <ul class="list">
+          <h2 class="visually-hidden">Характеристики</h2>
+          <ul class="list featyre">
             <li class="item feture">
               <h3 class="features-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p>
@@ -121,41 +121,53 @@
         <div class="container-team">
         <h2 class="team-item">Наша команда</h2>
         <ul class="list team-list">
-          <li>
+          <li class="item">
             <img
               src="./images/ihor.jpg"
               alt="мужчина в очках и темной рубашке"
               width="270"
+              class="img"
             />
-            <h3 class="list-item">Игорь Демьяненко</h3>
-            <p class="item-text">Product Designer</p>
+            <div class="item-container">
+              <h3 class="list-item">Игорь Демьяненко</h3>
+              <p class="item-text">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/olha.jpg"
               alt="женщина в очках и черном пиджаке "
               width="270"
+              class="img"
             />
-            <h3 class="list-item">Ольга Репина</h3>
-            <p class="item-text">Frontend Developer</p>
+            <div class="item-container">
+              <h3 class="list-item">Ольга Репина</h3>
+              <p class="item-text">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/nikolaj.jpg"
               alt="мужчина в светлой рубашке"
               width="270"
+              class="img"
             />
-            <h3 class="list-item">Николай Тарасов</h3>
-            <p class="item-text">Marketing</p>
+            <div class="item-container">
+              <h3 class="list-item">Николай Тарасов</h3>
+              <p class="item-text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/michail.jpg"
               alt="мужчина в очках и черной футболке"
               width="270"
+              class="img"
             />
-            <h3 class="list-item">Михаил Ермаков</h3>
-            <p class="item-text">UI Designer</p>
+            <div class="item-container">
+              <h3 class="list-item">Михаил Ермаков</h3>
+              <p class="item-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -163,19 +175,21 @@
     </main>
 
     <!-- Футер -->
-    <footer>
-      <a href="/" class="secondary-logo"
-        >Web<span class="logo-white">Studio</span></a
-      >
-      <address class="information">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="list">
-        <li>
-          <a href="mailto:info@example.com" class="mail">info@example.com</a>
-        </li>
-        <li>
-          <a href="tel:+380991111111" class="telefon">+38 099 111 11 11</a>
-        </li>
-      </ul>
+    <footer class="footer">
+      <div class="container flex">
+        <a href="/" class="secondary-logo"
+          >Web<span class="logo-white">Studio</span></a
+        >
+        <address class="information">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="list address">
+          <li class="mail">
+            <a href="mailto:info@example.com" class="mail">info@example.com</a>
+          </li>
+          <li class="telefon">
+            <a href="tel:+380991111111" class="telefon">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
