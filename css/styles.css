@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --hirou-color: #ffffff;
   --last-text-color: rgba(255, 255, 255, 0.6);
-  --main-background-color: #e5e5e5;
+  --main-background-color: #E5E5E5;
   --secondary-background-color: #2f303a;
   --last-background-color: #f5f4fa;
   --dark-logo-color: #000000
@@ -33,18 +33,16 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 
-    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container.featyres {
+.container > .featyres {
     width: 1200px; 
 
     padding-left: 15px;
     padding-right: 15px;
 
-    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,11 +113,10 @@ a {
 
 .page-header {
     background-color: var(--hirou-color);
-    border: 1px solid #eeeeee; 
+    border-bottom: 1px solid #eeeeee; 
 }
 
 .hero {
-    margin-bottom: 94px;
     text-align: center;
 }
 
@@ -153,8 +150,18 @@ footer {
 }
 
 .features {
-    margin-top: 0;
-    margin-bottom: 94;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    /* цает скопирован из фигмы, не знаю почему на макете он выглядит светлым, а у меня серым */
+    background-color: #E5E5E5;
+}
+
+.actions {
+    padding-bottom: 239px;
+
+    /* цает скопирован из фигмы, не знаю почему на макете он выглядит светлым, а у меня серым */
+    background-color: #E5E5E5;
 }
 
 .container-team {
@@ -171,7 +178,8 @@ footer {
     padding-top: 94px;
     padding-bottom: 94px;
 
-    background-color: var(--last-background-color);
+    /* background-color: var(--last-background-color); */
+    background-color: #F5F4FA;
 }
 
 
