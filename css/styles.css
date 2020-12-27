@@ -153,15 +153,13 @@ footer {
     padding-top: 94px;
     padding-bottom: 94px;
 
-    /* цает скопирован из фигмы, не знаю почему на макете он выглядит светлым, а у меня серым */
-    background-color: #E5E5E5;
+    background-color: var(--hirou-color);
 }
 
 .actions {
-    padding-bottom: 239px;
+    padding-bottom: 94px;
 
-    /* цает скопирован из фигмы, не знаю почему на макете он выглядит светлым, а у меня серым */
-    background-color: #E5E5E5;
+    background-color: var(--hirou-color);
 }
 
 .container-team {
